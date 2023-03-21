@@ -66,9 +66,6 @@ client.load = command => {
     });
 };
 
-
-
-
 client.unload = command => {
     return new Promise((resolve, reject) => {
         try {
